@@ -64,4 +64,6 @@ typings/
 .idea
 .vscode
 
-/node
+/_docdash
+/_datedash
+/_nodedash
