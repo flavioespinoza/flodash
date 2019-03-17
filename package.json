@@ -1,6 +1,6 @@
 {
   "name": "flodash",
-  "version": "1.0.0",
+  "version": "1.0.14",
   "description": "lodash inspired node methods.",
   "main": "flodash.js",
   "scripts": {
@@ -60,10 +60,13 @@
     "sauce-tunnel": "^2.5.0",
     "uglify-js": "2.7.5",
     "uuid": "^3.3.2",
-		"webpack": "^1.14.0",
+    "webpack": "^1.14.0",
     "@flavs/docdash": "^1.0.4"
   },
-  "dependencies": {
-
+  "dependencies": {},
+  "directories": {
+    "doc": "doc",
+    "lib": "lib",
+    "test": "test"
   }
 }
