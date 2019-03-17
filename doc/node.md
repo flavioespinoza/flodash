@@ -1,12 +1,12 @@
-# <a href="https://github.com/flavioespinoza/undefined">undefined</a> <span>vundefined</span>
+# <a href="https://github.com/flavioespinoza/nodedash">nodedash</a> <span>v1.0.0</span>
 
 <!-- div class="toc-container" -->
 
 <!-- div class="import" -->
 
 ## `Import`
-* <a href="#_n-import">`_n.import`</a>
-* <a href="#_n-modules">`_n.modules`</a>
+* <a href="#_n-_n_import">`_n._n_import`</a>
+* <a href="#_n-_n_modules">`_n._n_modules`</a>
 
 <!-- /div -->
 
@@ -45,8 +45,8 @@
 
 <!-- div -->
 
-<h3 id="_n-import"><code>_n.import</code></h3>
-<a href="https://github.com/flavioespinoza/undefined/blob/master/methods/undefined.js">undefined.js</a>
+<h3 id="_n-_n_import"><code>_n._n_import</code></h3>
+<a href="https://github.com/flavioespinoza/nodedash/blob/master/methods/nodedash.js">nodedash.js</a>
 
 Import using `esm` or `TypeScript`
 
@@ -72,8 +72,8 @@ _n.subtractDays('3/6/19', 1, '-')
 
 <!-- div -->
 
-<h3 id="_n-modules"><code>_n.modules</code></h3>
-<a href="https://github.com/flavioespinoza/undefined/blob/master/methods/undefined.js">undefined.js</a>
+<h3 id="_n-_n_modules"><code>_n._n_modules</code></h3>
+<a href="https://github.com/flavioespinoza/nodedash/blob/master/methods/nodedash.js">nodedash.js</a>
 
 Import individual ES Modules using `esm` or `TypeScript`
 
@@ -103,7 +103,7 @@ subtractDays('3/6/19', 1, '-')
 <!-- div -->
 
 <h3 id="_n-require"><code>_n.require</code></h3>
-<a href="https://github.com/flavioespinoza/undefined/blob/master/methods/undefined.js">undefined.js</a>
+<a href="https://github.com/flavioespinoza/nodedash/blob/master/methods/nodedash.js">nodedash.js</a>
 
 Import using `require`
 
@@ -136,7 +136,7 @@ _n.subtractDays('3/6/19', 1, '-')
 <!-- div -->
 
 <h3 id="_n-date"><code>_n.date(Date, format)</code></h3>
-<a href="https://github.com/flavioespinoza/undefined/blob/master/methods/undefined.js">undefined.js</a>
+<a href="https://github.com/flavioespinoza/nodedash/blob/master/methods/nodedash.js">nodedash.js</a>
 
 Computes input `date` converts to string and returns with specified `format`.
 
@@ -182,7 +182,7 @@ _n.date(any_nate, 'full')
 <!-- div -->
 
 <h3 id="_n-now"><code>_n.now()</code></h3>
-<a href="https://github.com/flavioespinoza/undefined/blob/master/methods/undefined.js">undefined.js</a>
+<a href="https://github.com/flavioespinoza/nodedash/blob/master/methods/nodedash.js">nodedash.js</a>
 
 Gets the timestamp of the number of milliseconds that have elapsed since
 the Unix epoch *(1 January `1970 00`:00:00 UTC)*.
@@ -210,7 +210,7 @@ defer(function(stamp) {
 <!-- div -->
 
 <h3 id="_n-getTimestamp"><code>_n.getTimestamp(Date)</code></h3>
-<a href="https://github.com/flavioespinoza/undefined/blob/master/methods/undefined.js">undefined.js</a>
+<a href="https://github.com/flavioespinoza/nodedash/blob/master/methods/nodedash.js">nodedash.js</a>
 
 Gets the timestamp of the number of milliseconds that have elapsed since
 `date` argument. If `date` is `undefined` it gives milliseconds elapsed since
@@ -244,7 +244,7 @@ _n.getTimestamp('11/4/1973')
 <!-- div -->
 
 <h3 id="_n-isDate"><code>_n.isDate(value)</code></h3>
-<a href="https://github.com/flavioespinoza/undefined/blob/master/methods/undefined.js">undefined.js</a>
+<a href="https://github.com/flavioespinoza/nodedash/blob/master/methods/nodedash.js">nodedash.js</a>
 
 Verifies if `value` is a valid `Date object` and valid `Date`.
 
@@ -296,7 +296,7 @@ _n.isDate(getDate())
 <!-- div -->
 
 <h3 id="_n-addDays"><code>_n.addDays(Date, days, format)</code></h3>
-<a href="https://github.com/flavioespinoza/undefined/blob/master/methods/undefined.js">undefined.js</a>
+<a href="https://github.com/flavioespinoza/nodedash/blob/master/methods/nodedash.js">nodedash.js</a>
 
 Input `_nate` add `nDays` with `format`
 
@@ -328,7 +328,7 @@ _n.addDays(any_nate, 3, 'uk')
 <!-- div -->
 
 <h3 id="_n-subtractDays"><code>_n.subtractDays(Date, days, format)</code></h3>
-<a href="https://github.com/flavioespinoza/undefined/blob/master/methods/undefined.js">undefined.js</a>
+<a href="https://github.com/flavioespinoza/nodedash/blob/master/methods/nodedash.js">nodedash.js</a>
 
 Input `_nate` subtract `nDays` with `format`
 

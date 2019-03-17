@@ -1,0 +1,135 @@
+
+			<!DOCTYPE html>
+			<html class="docs gr__flodash_com" style="overflow: auto;">
+				<head>
+					<meta charset="utf-8">
+					<meta content="IE=edge" http-equiv="X-UA-Compatible">
+					<title>flodash Docs</title>
+					<meta content="width=device-width, initial-scale=1" name="viewport">
+					<link href="assets/css/doc.css" rel="stylesheet" type="text/css">
+					<script src="../vendor/lodash/lodash.min.js"></script>
+					<script src="../vendor/g/fuse@2.6.1,react@15.4.0(react.min.js+react-dom.min.js"></script>
+					<script async src="../assets/js/docs.js"></script>
+					<link href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+					<script async src="../assets/js/boot.js"></script>
+					<script async src="https://embed.runkit.com" async></script>
+				</head>
+				<body class="layout-docs">
+					<header>
+						<div class="container">
+								<div class="header-section logo-section">
+										<div class="logo">
+												<a href="../index.html" title="flodash">flodash</a>
+										</div>
+										<div class="header-group">
+												<h1>flodash</h1>
+										</div>
+								</div>
+								<div class="header-section mobile-menu">
+      							<a href="#"><i class="fa fa-bars" aria-hidden="true"></i>Menu</a>
+    						</div>
+						</div>
+					</header>
+					<div class="doc-main">
+						<div class="toc-container">
+<div class="import">
+<h2><code>Import</code></h2>
+<ul>
+<li><a href="#_n-import"><code>_n.import</code></a></li>
+<li><a href="#_n-modules"><code>_n.modules</code></a></li>
+</ul>
+</div>
+<div class="import">
+<h2><code>Require</code></h2>
+<ul>
+<li><a href="#_n-require"><code>_n.require</code></a></li>
+</ul>
+</div>
+<div class="import">
+<h2><code>App</code></h2>
+<ul>
+<li><a href="#_n-app"><code>_n.app</code></a></li>
+</ul>
+</div>
+<div class="import">
+<h2><code>Util</code></h2>
+<ul>
+<li><a href="#_n-error"><code>_n.error</code></a></li>
+</ul>
+</div>
+</div>
+<div class="doc-container">
+<div>
+<h2><code>Import</code></h2>
+<div>
+<h3 id="_n-import"><code>_n.import</code></h3>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/import.js">import.js</a>
+<p>Import using <code>esm</code> or <code>TypeScript</code></p>
+<h4>Since</h4>
+<p>1.0.0</p>
+<h4>Example</h4>
+<div class="highlight js"><pre class="editor editor-colors"><div class="line"><span class="source js"><span class="meta import js"><span class="keyword control js">import</span>&#xA0;<span class="variable other module js">_n</span>&#xA0;<span class="keyword control js">from</span>&#xA0;<span class="string quoted single js">&apos;nodedash&apos;</span></span></span></div><div class="line"><span class="source js">&#xA0;</span></div><div class="line"><span class="source js"><span class="variable other object js">_n</span><span class="meta method-call js"><span class="meta delimiter method period js">.</span><span class="entity name function js">date</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="string quoted single js">&apos;3/14/2019&apos;</span><span class="meta delimiter object comma js">,</span>&#xA0;<span class="string quoted single js">&apos;uk&apos;</span><span class="punctuation definition arguments end bracket round js">)</span></span></span></span></div><div class="line"><span class="source js"><span class="comment line double-slash js">//&#xA0;=&gt;&#xA0;14&#xA0;Mar&#xA0;2019</span></span></div><div class="line"><span class="source js">&#xA0;</span></div><div class="line"><span class="source js"><span class="variable other object js">_n</span><span class="meta method-call js"><span class="meta delimiter method period js">.</span><span class="entity name function js">addDays</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="string quoted single js">&apos;3/6/19&apos;</span><span class="meta delimiter object comma js">,</span>&#xA0;<span class="constant numeric decimal js">1</span><span class="meta delimiter object comma js">,</span>&#xA0;<span class="string quoted single js">&apos;-&apos;</span><span class="punctuation definition arguments end bracket round js">)</span></span></span></span></div><div class="line"><span class="source js"><span class="comment line double-slash js">//&#xA0;=&gt;&#xA0;03-07-2019</span></span></div><div class="line"><span class="source js">&#xA0;</span></div><div class="line"><span class="source js"><span class="variable other object js">_n</span><span class="meta method-call js"><span class="meta delimiter method period js">.</span><span class="entity name function js">subtractDays</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="string quoted single js">&apos;3/6/19&apos;</span><span class="meta delimiter object comma js">,</span>&#xA0;<span class="constant numeric decimal js">1</span><span class="meta delimiter object comma js">,</span>&#xA0;<span class="string quoted single js">&apos;-&apos;</span><span class="punctuation definition arguments end bracket round js">)</span></span></span></span></div><div class="line"><span class="source js"><span class="comment line double-slash js">//&#xA0;=&gt;&#xA0;03-05-2019</span></span></div></pre></div>
+
+</div>
+<div>
+<h3 id="_n-modules"><code>_n.modules</code></h3>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/modules.js">modules.js</a>
+<p>Import individual ES Modules using <code>esm</code> or <code>TypeScript</code></p>
+<h4>Since</h4>
+<p>1.0.0</p>
+<h4>Example</h4>
+<div class="highlight js"><pre class="editor editor-colors"><div class="line"><span class="source js"><span class="meta import js"><span class="keyword control js">import</span>&#xA0;<span class="punctuation definition modules begin js">{</span>&#xA0;<span class="variable other module js">app</span>&#xA0;<span class="punctuation definition modules end js">}</span>&#xA0;<span class="keyword control js">from</span>&#xA0;<span class="string quoted single js">&apos;nodedash&apos;</span></span></span></div></pre></div>
+
+</div>
+</div>
+<div>
+<h2><code>Require</code></h2>
+<div>
+<h3 id="_n-require"><code>_n.require</code></h3>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/require.js">require.js</a>
+<p>Import using <code>require</code></p>
+<h4>Since</h4>
+<p>1.0.0</p>
+<h4>Example</h4>
+<div class="highlight js"><pre class="editor editor-colors"><div class="line"><span class="source js"><span class="storage modifier js">const</span>&#xA0;<span class="constant other js">_n</span>&#xA0;<span class="keyword operator assignment js">=</span>&#xA0;<span class="meta function-call js"><span class="support function js">require</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="string quoted single js">&apos;nodedash&apos;</span><span class="punctuation definition arguments end bracket round js">)</span></span></span></span></div></pre></div>
+
+</div>
+</div>
+<div>
+<h2><code>&#x201C;App&#x201D; Methods</code></h2>
+<div>
+<h3 id="_n-app"><code>_n.app</code></h3>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/app.js">app.js</a>
+<p>Node App Server</p>
+<h4>Since</h4>
+<p>1.0.0</p>
+<h4>Example</h4>
+<div class="highlight js"><pre class="editor editor-colors"><div class="line"><span class="source js"><span class="storage modifier js">const</span>&#xA0;<span class="constant other js">_n</span>&#xA0;<span class="keyword operator assignment js">=</span>&#xA0;<span class="meta function-call js"><span class="support function js">require</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="string quoted single js">&apos;nodedash&apos;</span><span class="punctuation definition arguments end bracket round js">)</span></span></span></span></div><div class="line"><span class="source js">&#xA0;</span></div><div class="line"><span class="source js"><span class="storage modifier js">const</span>&#xA0;<span class="constant other js">PORT</span>&#xA0;<span class="keyword operator assignment js">=</span>&#xA0;<span class="constant numeric decimal js">7001</span></span></div><div class="line"><span class="source js"><span class="variable other object js">_n</span><span class="meta delimiter property period js">.</span><span class="variable other object property js">app</span><span class="meta method-call js"><span class="meta delimiter method period js">.</span><span class="entity name function js">listen</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="constant other js">PORT</span><span class="meta delimiter object comma js">,</span>&#xA0;<span class="meta function arrow js"><span class="meta parameters js"><span class="punctuation definition parameters begin bracket round js">(</span><span class="punctuation definition parameters end bracket round js">)</span></span>&#xA0;<span class="storage type function arrow js">=&gt;</span></span>&#xA0;<span class="punctuation definition function body begin bracket curly js">{</span></span></span></span></div><div class="line"><span class="source js"><span class="meta method-call js"><span class="meta arguments js">&#xA0;&#xA0;&#xA0;&#xA0;<span class="entity name type object console js">console</span><span class="meta method-call js"><span class="meta delimiter method period js">.</span><span class="support function console js">log</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="string quoted single js">&apos;Listening&#xA0;on&#xA0;port&#xA0;&apos;</span>&#xA0;<span class="keyword operator js">+</span>&#xA0;<span class="constant other js">PORT</span><span class="punctuation definition arguments end bracket round js">)</span></span></span></span></span></span></div><div class="line"><span class="source js"><span class="meta method-call js"><span class="meta arguments js"><span class="punctuation definition function body end bracket curly js">}</span><span class="punctuation definition arguments end bracket round js">)</span></span></span></span></div><div class="line"><span class="source js"><span class="comment line double-slash js">//&#xA0;=&gt;&#xA0;Listening&#xA0;on&#xA0;port&#xA0;&#xA0;7001</span></span></div></pre></div>
+
+</div>
+</div>
+<div>
+<h2><code>&#x201C;Util&#x201D; Methods</code></h2>
+<div>
+<h3 id="_n-error"><code>_n.error(Method, Error)</code></h3>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/error.js">error.js</a>
+<p>Error Handler</p>
+<h4>Since</h4>
+<p>1.0.0</p>
+<h4>Arguments</h4>
+<ol>
+<li><code>Method</code> <em>(string)</em>: Name</li>
+<li><code>Error</code> <em>(object)</em>: Object</li>
+</ol>
+<h4>Returns</h4>
+<p><em>(object)</em>: and logs error in console</p>
+<h4>Example</h4>
+<div class="highlight js"><pre class="editor editor-colors"><div class="line"><span class="source js"><span class="storage modifier js">const</span>&#xA0;<span class="constant other js">_n</span>&#xA0;<span class="keyword operator assignment js">=</span>&#xA0;<span class="meta function-call js"><span class="support function js">require</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="string quoted single js">&apos;nodedash&apos;</span><span class="punctuation definition arguments end bracket round js">)</span></span></span></span></div><div class="line"><span class="source js"><span class="storage modifier js">const</span>&#xA0;<span class="constant other js">axios</span>&#xA0;<span class="keyword operator assignment js">=</span>&#xA0;<span class="meta function-call js"><span class="support function js">require</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="string quoted single js">&apos;axios&apos;</span><span class="punctuation definition arguments end bracket round js">)</span></span></span></span></div><div class="line"><span class="source js">&#xA0;</span></div><div class="line"><span class="source js"><span class="storage modifier js">const</span>&#xA0;<span class="constant other js">getStuff</span>&#xA0;<span class="keyword operator assignment js">=</span>&#xA0;<span class="storage modifier js">async</span>&#xA0;<span class="meta brace round js">(</span><span class="meta function arrow js"><span class="meta parameters js"><span class="punctuation definition parameters begin bracket round js">(</span><span class="punctuation definition parameters end bracket round js">)</span></span>&#xA0;<span class="storage type function arrow js">=&gt;</span></span>&#xA0;<span class="punctuation definition function body begin bracket curly js">{</span></span></div><div class="line"><span class="source js">&#xA0;&#xA0;&#xA0;&#xA0;<span class="keyword control js">try</span>&#xA0;<span class="meta brace curly js">{</span></span></div><div class="line"><span class="source js">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<span class="storage modifier js">const</span>&#xA0;<span class="constant other js">getData</span>&#xA0;<span class="keyword operator assignment js">=</span>&#xA0;<span class="keyword control js">await</span>&#xA0;<span class="meta function-call js"><span class="entity name function js">axios</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="string quoted single js">&apos;https://bullshit.foobars&apos;</span><span class="punctuation definition arguments end bracket round js">)</span></span></span></span></div><div class="line"><span class="source js">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<span class="keyword control js">return</span>&#xA0;getData</span></div><div class="line"><span class="source js">&#xA0;&#xA0;&#xA0;&#xA0;<span class="meta brace curly js">}</span>&#xA0;<span class="keyword control js">catch</span>&#xA0;<span class="meta brace round js">(</span>err<span class="meta brace round js">)</span>&#xA0;<span class="meta brace curly js">{</span></span></div><div class="line"><span class="source js">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<span class="keyword control js">return</span>&#xA0;<span class="variable other object js">_n</span><span class="meta method-call js"><span class="meta delimiter method period js">.</span><span class="entity name function js">error</span><span class="meta arguments js"><span class="punctuation definition arguments begin bracket round js">(</span><span class="string quoted single js">&apos;getStuff&apos;</span><span class="meta delimiter object comma js">,</span>&#xA0;err<span class="punctuation definition arguments end bracket round js">)</span></span></span></span></div><div class="line"><span class="source js">&#xA0;&#xA0;&#xA0;&#xA0;<span class="meta brace curly js">}</span></span></div><div class="line"><span class="source js"><span class="punctuation definition function body end bracket curly js">}</span><span class="meta brace round js">)</span></span></div><div class="line"><span class="source js"><span class="comment line double-slash js">//&#xA0;=&gt;&#xA0;{&#xA0;method:&#xA0;&apos;getStuff&apos;,&#xA0;error:&#xA0;{&#xA0;msg:&#xA0;&apos;404&#xA0;not&#xA0;found&apos;&#xA0;}}</span></span></div></pre></div>
+
+</div>
+</div>
+</div>
+					</div>
+				</body>
+			</html>
+		
