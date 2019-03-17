@@ -1,0 +1,46 @@
+.highlight.js {
+	.comment {
+		color: #6d8a4e;
+	} // .highlight.js .comment
+
+	.numeric,
+	.modifier,
+	.type {
+		color: #6d8fc9;
+	} // .highlight.js .type
+
+	.name {
+		color: #d5d6a7;
+	} // .highlight.js .name
+
+	.support {
+		color: #86b9f5;
+	} // .highlight.js .support
+
+	.console {
+		color: #b2d5f7;
+	} // .highlight.js .console
+
+	.from,
+	.import,
+	.return {
+		color: #c376d6;
+	} // .highlight.js .return
+
+	.punctuation,
+	.begin,
+	.end {
+		color: #b2d5f7;
+	}
+
+	.variable.other.module.js {
+		color: #b2d5f7;
+	}
+
+	.string {
+		color: #cd9e7f;
+	}
+
+	// .highlight.js .end
+} // .highlight.js
+
