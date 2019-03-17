@@ -18,7 +18,7 @@ var root = freeGlobal || freeSelf || Function('return this')()
  * @returns {number} Returns the timestamp.
  * @example
  *
- * console.log(_d.timestamp()) // => 1552351582644
+ * console.log(_f.timestamp()) // => 1552351582644
  * // => Logs the number of milliseconds it took for the deferred invocation.
  */
 function timestamp() {

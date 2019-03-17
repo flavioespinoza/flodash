@@ -1,4 +1,4 @@
-# <a href="https://github.com/flavioespinoza/datedash">datedash</a> <span>v1.0.49</span>
+# <a href="https://github.com/flavioespinoza/flodash">flodash</a> <span>v1.0.14</span>
 
 <!-- div class="toc-container" -->
 
@@ -46,7 +46,7 @@
 <!-- div -->
 
 <h3 id="import"><code>import</code></h3>
-<a href="https://github.com/flavioespinoza/datedash/blob/master/methods/import.js">import.js</a>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/import.js">import.js</a>
 
 Import using `esm` or `TypeScript`
 
@@ -55,15 +55,15 @@ Import using `esm` or `TypeScript`
 
 #### Example
 ```js
-import _d from 'datedash'
+import _d from 'flodash'
 
-_d.date('3/14/2019', 'uk')
+_f.date('3/14/2019', 'uk')
 // => 14 Mar 2019
 
-_d.addDays('3/6/19', 1, '-')
+_f.addDays('3/6/19', 1, '-')
 // => 03-07-2019
 
-_d.subtractDays('3/6/19', 1, '-')
+_f.subtractDays('3/6/19', 1, '-')
 // => 03-05-2019
 ```
 ---
@@ -73,7 +73,7 @@ _d.subtractDays('3/6/19', 1, '-')
 <!-- div -->
 
 <h3 id="importModules"><code>importModules</code></h3>
-<a href="https://github.com/flavioespinoza/datedash/blob/master/methods/importModules.js">importModules.js</a>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/importModules.js">importModules.js</a>
 
 Import individual ES Modules using `esm` or `TypeScript`
 
@@ -82,7 +82,7 @@ Import individual ES Modules using `esm` or `TypeScript`
 
 #### Example
 ```js
-import { addDate, subtractDate } from 'datedash'
+import { addDate, subtractDate } from 'flodash'
 
 addDays('3/6/19', 1, '-')
 // => 03-07-2019
@@ -103,7 +103,7 @@ subtractDays('3/6/19', 1, '-')
 <!-- div -->
 
 <h3 id="require"><code>require</code></h3>
-<a href="https://github.com/flavioespinoza/datedash/blob/master/methods/require.js">require.js</a>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/require.js">require.js</a>
 
 Import using `esm` or `TypeScript`
 
@@ -112,15 +112,15 @@ Import using `esm` or `TypeScript`
 
 #### Example
 ```js
-const _d = require('datedash')
+const _d = require('flodash')
 
-_d.date('3/14/2019', 'uk')
+_f.date('3/14/2019', 'uk')
 // => 14 Mar 2019
 
-_d.addDays('3/6/19', 1, '-')
+_f.addDays('3/6/19', 1, '-')
 // => 03-07-2019
 
-_d.subtractDays('3/6/19', 1, '-')
+_f.subtractDays('3/6/19', 1, '-')
 // => 03-05-2019
 ```
 ---
@@ -136,7 +136,7 @@ _d.subtractDays('3/6/19', 1, '-')
 <!-- div -->
 
 <h3 id="_d-date"><code>_d.date(Date, format)</code></h3>
-<a href="https://github.com/flavioespinoza/datedash/blob/master/methods/date.js">date.js</a>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/date.js">date.js</a>
 
 Computes input `date` converts to string and returns with specified `format`.
 
@@ -154,25 +154,25 @@ Computes input `date` converts to string and returns with specified `format`.
 ```js
 let any_date = "1/07/2019"
 
-_d.date(any_date, '/')
+_f.date(any_date, '/')
 // => 01/07/2019
 
-_d.date(any_date, '-')
+_f.date(any_date, '-')
 // => 01-07-2019
 
-_d.date(any_date, '.')
+_f.date(any_date, '.')
 // => 01.07.2019
 
-_d.date(any_date, 'MMM DD YYYY')
+_f.date(any_date, 'MMM DD YYYY')
 // => Jan 07 2019
 
-_d.date(any_date, 'england')
+_f.date(any_date, 'england')
 // => 07 Jan 2019
 
-_d.date(any_date, 'uk')
+_f.date(any_date, 'uk')
 // => 07 Jan 2019
 
-_d.date(any_date, 'full')
+_f.date(any_date, 'full')
 // => Mon Jan 07 2019 00:00:00 GMT-0700 (Mountain Standard Time)
 ```
 ---
@@ -182,7 +182,7 @@ _d.date(any_date, 'full')
 <!-- div -->
 
 <h3 id="_d-now"><code>_d.now()</code></h3>
-<a href="https://github.com/flavioespinoza/datedash/blob/master/methods/now.js">now.js</a>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/now.js">now.js</a>
 
 Gets the timestamp of the number of milliseconds that have elapsed since
 the Unix epoch *(1 January `1970 00`:00:00 UTC)*.
@@ -198,8 +198,8 @@ the Unix epoch *(1 January `1970 00`:00:00 UTC)*.
 const { defer } = require('lodash')
 
 defer(function(stamp) {
-  console.log(_d.now() - stamp)
-}, _d.now())
+  console.log(_f.now() - stamp)
+}, _f.now())
 
 // => Logs milliseconds it took for the deferred invocation.
 ```
@@ -210,7 +210,7 @@ defer(function(stamp) {
 <!-- div -->
 
 <h3 id="_d-getTimestamp"><code>_d.getTimestamp(Date)</code></h3>
-<a href="https://github.com/flavioespinoza/datedash/blob/master/methods/getTimestamp.js">getTimestamp.js</a>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/getTimestamp.js">getTimestamp.js</a>
 
 Gets the timestamp of the number of milliseconds that have elapsed since
 `date` argument. If `date` is `undefined` it gives milliseconds elapsed since
@@ -227,14 +227,14 @@ the Unix epoch *(1 January `1970 00`:00:00 UTC)*.
 
 #### Example
 ```js
-_d.getTimestamp('July 4 1776')
+_f.getTimestamp('July 4 1776')
 // => 121244400000
 
-_d.getTimestamp()
+_f.getTimestamp()
 // => 1552353178563
 // returns now timestamp
 
-_d.getTimestamp('11/4/1973')
+_f.getTimestamp('11/4/1973')
 // => -6106035604000
 ```
 ---
@@ -244,7 +244,7 @@ _d.getTimestamp('11/4/1973')
 <!-- div -->
 
 <h3 id="_d-isDate"><code>_d.isDate(value)</code></h3>
-<a href="https://github.com/flavioespinoza/datedash/blob/master/methods/isDate.js">isDate.js</a>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/isDate.js">isDate.js</a>
 
 Verifies if `value` is a valid `Date object` and valid `Date`.
 
@@ -259,28 +259,28 @@ Verifies if `value` is a valid `Date object` and valid `Date`.
 
 #### Example
 ```js
-_d.isDate('3/3/19')
+_f.isDate('3/3/19')
 // => true
 
-_d.isDate(new Date())
+_f.isDate(new Date())
 // => true
 
-_d.isDate('Jul 4 1776')
+_f.isDate('Jul 4 1776')
 // => true
 
-_d.isDate(25200000)
+_f.isDate(25200000)
 // => true
 
-_d.isDate('3/33/19')
+_f.isDate('3/33/19')
 // => false
 
 function getDate() {
     return '1/1/19'
 }
-_d.isDate(getDate)
+_f.isDate(getDate)
 // => false
 
-_d.isDate(getDate())
+_f.isDate(getDate())
 // => true
 ```
 ---
@@ -296,7 +296,7 @@ _d.isDate(getDate())
 <!-- div -->
 
 <h3 id="_d-addDays"><code>_d.addDays(Date, days, format)</code></h3>
-<a href="https://github.com/flavioespinoza/datedash/blob/master/methods/addDays.js">addDays.js</a>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/addDays.js">addDays.js</a>
 
 Input `_date` add `nDays` with `format`
 
@@ -312,13 +312,13 @@ Input `_date` add `nDays` with `format`
 ```js
 const any_date = '3/6/19'
 
-_d.addDays(any_date, 1, '-')
+_f.addDays(any_date, 1, '-')
 // => 03-07-2019
 
-_d.addDays(any_date, 2, '.')
+_f.addDays(any_date, 2, '.')
 // => 03.08.2019
 
-_d.addDays(any_date, 3, 'uk')
+_f.addDays(any_date, 3, 'uk')
 // => 09 Mar 2019
 ```
 ---
@@ -328,7 +328,7 @@ _d.addDays(any_date, 3, 'uk')
 <!-- div -->
 
 <h3 id="_d-subtractDays"><code>_d.subtractDays(Date, days, format)</code></h3>
-<a href="https://github.com/flavioespinoza/datedash/blob/master/methods/subtractDays.js">subtractDays.js</a>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/subtractDays.js">subtractDays.js</a>
 
 Input `_date` subtract `nDays` with `format`
 
@@ -344,13 +344,13 @@ Input `_date` subtract `nDays` with `format`
 ```js
 const any_date = '3/6/19'
 
-_d.subtractDays(any_date, 1, '-')
+_f.subtractDays(any_date, 1, '-')
 // => 03-05-2019
 
-_d.subtractDays(any_date, 2, '.')
+_f.subtractDays(any_date, 2, '.')
 // => 03.04.2019
 
-_d.subtractDays(any_date, 3, 'uk')
+_f.subtractDays(any_date, 3, 'uk')
 // => 03 Mar 2019
 ```
 ---

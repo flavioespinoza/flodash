@@ -395,7 +395,7 @@
     // Add Runkit buttons.
     if ('innerText' in docs) {
       _.each(docs.querySelectorAll('.highlight.js'), function(div) {
-				
+
 				console.log('div Add Runkit buttons.', div)
         var button = document.createElement('a')
         var parent = div.parentNode
@@ -416,7 +416,7 @@
             'nodeVersion': '*',
             'preamble': [
               "const _ = require('lodash')",
-              "const _d = require('datedash')"
+              "const _f = require('flodash')"
             ].join('\n'),
             'source': source,
             'theme': 'atom-light-syntax',
