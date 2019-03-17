@@ -500,7 +500,7 @@ html.custom-builds li .highlight {
 
 .highlight.js .from,
 .highlight.js .import,
-.highlight.js .return {
+.highlight.js .control {
   color: #c376d6; }
 
 .highlight.js .punctuation,

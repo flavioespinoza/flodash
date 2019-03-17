@@ -7,7 +7,6 @@
  * Based on lodash.js by John-David Dalton <https://github.com/jdalton>
  */
 ;(function() {
-
 	/** Used as the semantic version number. */
 	var __package = require('./package.json')
 
@@ -38,7 +37,6 @@
 
 	/*------------------------------------------------------------------------*/
 
-
 	/*------------------------------------------------------------------------*/
 
 	/**
@@ -54,6 +52,34 @@
 	}
 
 	/*------------------------------------------------------------------------*/
+
+	/**
+	 * Using `yarn`
+	 *
+	 * @static
+	 * @since 1.0.0
+	 * @category Install
+	 * @example
+	 *
+	 * yarn add flodash
+	 */
+	this.yarn = () => {
+		return null
+	}
+
+	/**
+	 * Using `npm`
+	 *
+	 * @static
+	 * @since 1.0.0
+	 * @category Install
+	 * @example
+	 *
+	 * npm i flodash
+	 */
+    this.npm = () => {
+		return null
+	}
 
 	/**
 	 * Import using `esm` or `TypeScript`
@@ -75,7 +101,7 @@
 	 * // => 03-05-2019
 	 */
 	this.import = () => {
-
+		return null
 	}
 
 	/**
@@ -94,14 +120,14 @@
 	 * subtractDays('3/6/19', 1, '-')
 	 * // => 03-05-2019
 	 */
-	this.importModules = async moduleArr => {
-
+	this.modules = () => {
+		return null
 	}
 
 	/*------------------------------------------------------------------------*/
 
 	/**
-	 * Import using `esm` or `TypeScript`
+	 * Import using `require`
 	 *
 	 * @static
 	 * @since 1.0.0
@@ -119,9 +145,7 @@
 	 * _f.subtractDays('3/6/19', 1, '-')
 	 * // => 03-05-2019
 	 */
-	this.require = () => {
-
-	}
+	this.require = () => {}
 
 	/**
 	 *

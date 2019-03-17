@@ -6,7 +6,7 @@
 
 ## `Import`
 * <a href="#import">`import`</a>
-* <a href="#importModules">`importModules`</a>
+* <a href="#modules">`modules`</a>
 
 <!-- /div -->
 
@@ -72,8 +72,8 @@ _f.subtractDays('3/6/19', 1, '-')
 
 <!-- div -->
 
-<h3 id="importModules"><code>importModules</code></h3>
-<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/importModules.js">importModules.js</a>
+<h3 id="modules"><code>modules</code></h3>
+<a href="https://github.com/flavioespinoza/flodash/blob/master/methods/modules.js">modules.js</a>
 
 Import individual ES Modules using `esm` or `TypeScript`
 
@@ -105,7 +105,7 @@ subtractDays('3/6/19', 1, '-')
 <h3 id="require"><code>require</code></h3>
 <a href="https://github.com/flavioespinoza/flodash/blob/master/methods/require.js">require.js</a>
 
-Import using `esm` or `TypeScript`
+Import using `require`
 
 #### Since
 1.0.0

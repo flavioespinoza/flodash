@@ -3,7 +3,7 @@ const sass = require('gulp-sass')
 
 sass.compiler = require('node-sass')
 
-gulp.task('sass', () => {
+gulp.task('scss', () => {
 	return gulp
 		.src('./assets/scss/doc.scss')
 		.pipe(sass().on('error', sass.logError))
