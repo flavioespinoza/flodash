@@ -153,10 +153,11 @@ header {
     height: 80px;
     margin-right: 1.6rem;
     padding: 0 1.6rem 0 0;
-    width: 80px;
+		width: 80px;
+		// background: url(assets/img/flodash.png) no-repeat;
 
-    a {
-      background: url(/assets/img/lodash.svg) no-repeat;
+    a, span {
+      background: url(../img/flodash.png) no-repeat;
       background-size: contain;
       border: none;
       display: block;

@@ -1,0 +1,19 @@
+@mixin minimal-scrollbar() {
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+  } // @mixin minimal-scrollbar()::-webkit-scrollbar
+
+  &::-webkit-scrollbar:horizontal {
+    height: 11px;
+  } // @mixin minimal-scrollbar()::-webkit-scrollbar:horizontal
+
+  &::-webkit-scrollbar:vertical {
+    width: 11px;
+  } // @mixin minimal-scrollbar()::-webkit-scrollbar:vertical
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(3, 2, 2, 0.33);
+    border: 2px solid $foreground;
+    border-radius: 8px;
+  } // @mixin minimal-scrollbar()::-webkit-scrollbar-thumb
+} // @mixin minimal-scrollbar()
