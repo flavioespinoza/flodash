@@ -43,7 +43,7 @@
 
 	/**
 	 * @private
-	 * @name _d
+	 * @name _f
 	 * @constructor
 	 * @category Seq
 	 * @param {*} value The value to wrap in a `flodash` instance.
@@ -63,7 +63,7 @@
 	 * @category Import
 	 * @example
 	 *
-	 * import _d from 'flodash'
+	 * import _f from 'flodash'
 	 *
 	 * _f.date('3/14/2019', 'uk')
 	 * // => 14 Mar 2019
@@ -108,7 +108,7 @@
 	 * @category Require
 	 * @example
 	 *
-	 * const _d = require('flodash')
+	 * const _f = require('flodash')
 	 *
 	 * _f.date('3/14/2019', 'uk')
 	 * // => 14 Mar 2019
@@ -128,7 +128,7 @@
 	 * Computes input `date` converts to string and returns with specified `format`.
 	 *
 	 * @static
-	 * @memberOf _d
+	 * @memberOf _f
 	 * @since 1.0.0
 	 * @category Date
 	 * @param {date} Date options are `new Date()`, `timestamp` or `string` in valid date format. See example below.
@@ -136,27 +136,27 @@
 	 * @returns {string} Returns the date as a String in specified format.
 	 * @example
 	 *
-	 * let any_date = "1/07/2019"
+	 * let any_fate = "1/07/2019"
 	 *
-	 * _f.date(any_date, '/')
+	 * _f.date(any_fate, '/')
 	 * // => 01/07/2019
 	 *
-	 * _f.date(any_date, '-')
+	 * _f.date(any_fate, '-')
 	 * // => 01-07-2019
 	 *
-	 * _f.date(any_date, '.')
+	 * _f.date(any_fate, '.')
 	 * // => 01.07.2019
 	 *
-	 * _f.date(any_date, 'MMM DD YYYY')
+	 * _f.date(any_fate, 'MMM DD YYYY')
 	 * // => Jan 07 2019
 	 *
-	 * _f.date(any_date, 'england')
+	 * _f.date(any_fate, 'england')
 	 * // => 07 Jan 2019
 	 *
-	 * _f.date(any_date, 'uk')
+	 * _f.date(any_fate, 'uk')
 	 * // => 07 Jan 2019
 	 *
-	 * _f.date(any_date, 'full')
+	 * _f.date(any_fate, 'full')
 	 * // => Mon Jan 07 2019 00:00:00 GMT-0700 (Mountain Standard Time)
 	 *
 	 */
@@ -167,7 +167,7 @@
 	 * the Unix epoch (1 January 1970 00:00:00 UTC).
 	 *
 	 * @static
-	 * @memberOf _d
+	 * @memberOf _f
 	 * @since 1.0.0
 	 * @category Date
 	 * @returns {number} Returns the timestamp.
@@ -189,7 +189,7 @@
 	 * the Unix epoch (1 January 1970 00:00:00 UTC).
 	 *
 	 * @static
-	 * @memberOf _d
+	 * @memberOf _f
 	 * @since 1.0.0
 	 * @category Date
 	 * @param {date} Date to convert to timestamp.
@@ -212,7 +212,7 @@
 	 * Verifies if `value` is a valid `Date object` and valid `Date`.
 	 *
 	 * @static
-	 * @memberOf _d
+	 * @memberOf _f
 	 * @since 1.0.0
 	 * @category Date
 	 * @param {*} value The value to check.
@@ -246,10 +246,10 @@
 	const isDate = require('./methods/isDate')
 
 	/**
-	 * Input `_date` add `nDays` with `format`
+	 * Input `_fate` add `nDays` with `format`
 	 *
 	 * @static
-	 * @memberOf _d
+	 * @memberOf _f
 	 * @since 1.0.0
 	 * @category Math
 	 * @param {date} Date
@@ -257,24 +257,24 @@
 	 * @param {string} format
 	 * @example
 	 *
-	 * const any_date = '3/6/19'
+	 * const any_fate = '3/6/19'
 	 *
-	 * _f.addDays(any_date, 1, '-')
+	 * _f.addDays(any_fate, 1, '-')
 	 * // => 03-07-2019
 	 *
-	 * _f.addDays(any_date, 2, '.')
+	 * _f.addDays(any_fate, 2, '.')
 	 * // => 03.08.2019
 	 *
-	 * _f.addDays(any_date, 3, 'uk')
+	 * _f.addDays(any_fate, 3, 'uk')
 	 * // => 09 Mar 2019
 	 */
 	const addDays = require('./methods/addDays')
 
 	/**
-	 * Input `_date` subtract `nDays` with `format`
+	 * Input `_fate` subtract `nDays` with `format`
 	 *
 	 * @static
-	 * @memberOf _d
+	 * @memberOf _f
 	 * @since 1.0.0
 	 * @category Math
 	 * @param {Date} Date
@@ -282,15 +282,15 @@
 	 * @param {string} format
 	 * @example
 	 *
-	 * const any_date = '3/6/19'
+	 * const any_fate = '3/6/19'
 	 *
-	 * _f.subtractDays(any_date, 1, '-')
+	 * _f.subtractDays(any_fate, 1, '-')
 	 * // => 03-05-2019
 	 *
-	 * _f.subtractDays(any_date, 2, '.')
+	 * _f.subtractDays(any_fate, 2, '.')
 	 * // => 03.04.2019
 	 *
-	 * _f.subtractDays(any_date, 3, 'uk')
+	 * _f.subtractDays(any_fate, 3, 'uk')
 	 * // => 03 Mar 2019
 	 */
 	const subtractDays = require('./methods/subtractDays')
@@ -313,7 +313,7 @@
 	 * The semantic version number.
 	 * @private
 	 * @static
-	 * @memberOf _d
+	 * @memberOf _f
 	 * @type {string}
 	 */
 	flodash.VERSION = VERSION
@@ -322,12 +322,12 @@
 
 	if (freeModule) {
 		// Export for Node.js.
-		;(freeModule.exports = flodash)._d = flodash
+		;(freeModule.exports = flodash)._f = flodash
 
 		// Export for CommonJS support.
-		freeExports._d = flodash
+		freeExports._f = flodash
 	} else {
 		// Export to the global object.
-		root._d = flodash
+		root._f = flodash
 	}
 }.call(this))

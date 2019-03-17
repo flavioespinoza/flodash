@@ -20,18 +20,18 @@
 <!-- div class="import" -->
 
 ## `Date`
-* <a href="#_d-date">`_d.date`</a>
-* <a href="#_d-now">`_d.now`</a>
-* <a href="#_d-getTimestamp">`_d.getTimestamp`</a>
-* <a href="#_d-isDate">`_d.isDate`</a>
+* <a href="#_f-date">`_f.date`</a>
+* <a href="#_f-now">`_f.now`</a>
+* <a href="#_f-getTimestamp">`_f.getTimestamp`</a>
+* <a href="#_f-isDate">`_f.isDate`</a>
 
 <!-- /div -->
 
 <!-- div class="import" -->
 
 ## `Math`
-* <a href="#_d-addDays">`_d.addDays`</a>
-* <a href="#_d-subtractDays">`_d.subtractDays`</a>
+* <a href="#_f-addDays">`_f.addDays`</a>
+* <a href="#_f-subtractDays">`_f.subtractDays`</a>
 
 <!-- /div -->
 
@@ -55,7 +55,7 @@ Import using `esm` or `TypeScript`
 
 #### Example
 ```js
-import _d from 'flodash'
+import _f from 'flodash'
 
 _f.date('3/14/2019', 'uk')
 // => 14 Mar 2019
@@ -112,7 +112,7 @@ Import using `esm` or `TypeScript`
 
 #### Example
 ```js
-const _d = require('flodash')
+const _f = require('flodash')
 
 _f.date('3/14/2019', 'uk')
 // => 14 Mar 2019
@@ -135,7 +135,7 @@ _f.subtractDays('3/6/19', 1, '-')
 
 <!-- div -->
 
-<h3 id="_d-date"><code>_d.date(Date, format)</code></h3>
+<h3 id="_f-date"><code>_f.date(Date, format)</code></h3>
 <a href="https://github.com/flavioespinoza/flodash/blob/master/methods/date.js">date.js</a>
 
 Computes input `date` converts to string and returns with specified `format`.
@@ -152,27 +152,27 @@ Computes input `date` converts to string and returns with specified `format`.
 
 #### Example
 ```js
-let any_date = "1/07/2019"
+let any_fate = "1/07/2019"
 
-_f.date(any_date, '/')
+_f.date(any_fate, '/')
 // => 01/07/2019
 
-_f.date(any_date, '-')
+_f.date(any_fate, '-')
 // => 01-07-2019
 
-_f.date(any_date, '.')
+_f.date(any_fate, '.')
 // => 01.07.2019
 
-_f.date(any_date, 'MMM DD YYYY')
+_f.date(any_fate, 'MMM DD YYYY')
 // => Jan 07 2019
 
-_f.date(any_date, 'england')
+_f.date(any_fate, 'england')
 // => 07 Jan 2019
 
-_f.date(any_date, 'uk')
+_f.date(any_fate, 'uk')
 // => 07 Jan 2019
 
-_f.date(any_date, 'full')
+_f.date(any_fate, 'full')
 // => Mon Jan 07 2019 00:00:00 GMT-0700 (Mountain Standard Time)
 ```
 ---
@@ -181,7 +181,7 @@ _f.date(any_date, 'full')
 
 <!-- div -->
 
-<h3 id="_d-now"><code>_d.now()</code></h3>
+<h3 id="_f-now"><code>_f.now()</code></h3>
 <a href="https://github.com/flavioespinoza/flodash/blob/master/methods/now.js">now.js</a>
 
 Gets the timestamp of the number of milliseconds that have elapsed since
@@ -209,7 +209,7 @@ defer(function(stamp) {
 
 <!-- div -->
 
-<h3 id="_d-getTimestamp"><code>_d.getTimestamp(Date)</code></h3>
+<h3 id="_f-getTimestamp"><code>_f.getTimestamp(Date)</code></h3>
 <a href="https://github.com/flavioespinoza/flodash/blob/master/methods/getTimestamp.js">getTimestamp.js</a>
 
 Gets the timestamp of the number of milliseconds that have elapsed since
@@ -243,7 +243,7 @@ _f.getTimestamp('11/4/1973')
 
 <!-- div -->
 
-<h3 id="_d-isDate"><code>_d.isDate(value)</code></h3>
+<h3 id="_f-isDate"><code>_f.isDate(value)</code></h3>
 <a href="https://github.com/flavioespinoza/flodash/blob/master/methods/isDate.js">isDate.js</a>
 
 Verifies if `value` is a valid `Date object` and valid `Date`.
@@ -295,10 +295,10 @@ _f.isDate(getDate())
 
 <!-- div -->
 
-<h3 id="_d-addDays"><code>_d.addDays(Date, days, format)</code></h3>
+<h3 id="_f-addDays"><code>_f.addDays(Date, days, format)</code></h3>
 <a href="https://github.com/flavioespinoza/flodash/blob/master/methods/addDays.js">addDays.js</a>
 
-Input `_date` add `nDays` with `format`
+Input `_fate` add `nDays` with `format`
 
 #### Since
 1.0.0
@@ -310,15 +310,15 @@ Input `_date` add `nDays` with `format`
 
 #### Example
 ```js
-const any_date = '3/6/19'
+const any_fate = '3/6/19'
 
-_f.addDays(any_date, 1, '-')
+_f.addDays(any_fate, 1, '-')
 // => 03-07-2019
 
-_f.addDays(any_date, 2, '.')
+_f.addDays(any_fate, 2, '.')
 // => 03.08.2019
 
-_f.addDays(any_date, 3, 'uk')
+_f.addDays(any_fate, 3, 'uk')
 // => 09 Mar 2019
 ```
 ---
@@ -327,10 +327,10 @@ _f.addDays(any_date, 3, 'uk')
 
 <!-- div -->
 
-<h3 id="_d-subtractDays"><code>_d.subtractDays(Date, days, format)</code></h3>
+<h3 id="_f-subtractDays"><code>_f.subtractDays(Date, days, format)</code></h3>
 <a href="https://github.com/flavioespinoza/flodash/blob/master/methods/subtractDays.js">subtractDays.js</a>
 
-Input `_date` subtract `nDays` with `format`
+Input `_fate` subtract `nDays` with `format`
 
 #### Since
 1.0.0
@@ -342,15 +342,15 @@ Input `_date` subtract `nDays` with `format`
 
 #### Example
 ```js
-const any_date = '3/6/19'
+const any_fate = '3/6/19'
 
-_f.subtractDays(any_date, 1, '-')
+_f.subtractDays(any_fate, 1, '-')
 // => 03-05-2019
 
-_f.subtractDays(any_date, 2, '.')
+_f.subtractDays(any_fate, 2, '.')
 // => 03.04.2019
 
-_f.subtractDays(any_date, 3, 'uk')
+_f.subtractDays(any_fate, 3, 'uk')
 // => 03 Mar 2019
 ```
 ---

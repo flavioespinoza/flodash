@@ -1,0 +1,41 @@
+.highlight.js {
+  .comment {
+		color: #6d8a4e;
+  }
+
+  .numeric,
+  .modifier,
+  .type {
+    color: #6d8fc9;
+  }
+
+  .name {
+		color: #d5d6a7;
+	}
+  .support {
+    color: #86b9f5;
+  }
+
+  .console {
+    color: #b2d5f7;
+	}
+
+	.from, .import, .return  {
+		color: #c376d6;
+	}
+
+	.begin {
+		color: #b2d5f7;
+	}
+	.end {
+		color: #b2d5f7;
+	}
+
+}
+
+.highlight.html,
+.highlight.js {
+  .string {
+    color: #b0896f;
+  }
+}
