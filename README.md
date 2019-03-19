@@ -1,4 +1,4 @@
-# (_f)  flodash
+# flodash
 lodash inspired `Date` formatting methods.
 
 ## Docs
