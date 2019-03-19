@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "_logdash"
+		},
+		{
+			"path": "_nodedash"
+		}
+	],
+    "settings": {}
+}

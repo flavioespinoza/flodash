@@ -6,6 +6,8 @@
  * Based on lodash.js 5.0.0 <https://lodash.com/>
  * Based on lodash.js by John-David Dalton <https://github.com/jdalton>
  */
+
+ 
 ;(function() {
 	/** Used as the semantic version number. */
 	var __package = require('./package.json')
@@ -323,7 +325,7 @@
 
 	// TYPESCRIPT NODE
 
-    
+
 
 	/*------------------------------------------------------------------------*/
 

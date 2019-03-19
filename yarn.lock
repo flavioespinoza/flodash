@@ -2,15 +2,10 @@
 # yarn lockfile v1
 
 
-"@flavioespinoza/log_log@^1.0.52":
-  version "1.0.52"
-  resolved "https://registry.yarnpkg.com/@flavioespinoza/log_log/-/log_log-1.0.52.tgz#6caa0f45543976f11d9be5754da610434e47c2ae"
-  integrity sha512-yFKVLIypXJO2fkxtJ6x+X2ZgZJ76o+ykb6U6XqKulgbPBPq0sbi+a7QKjdh73YMgnRfjiZDI3jkIxxj+LPc2PQ==
-  dependencies:
-    ansicolor "^1.1.81"
-    esm "^3.2.14"
-    lodash "^4.17.11"
-    ololog "^1.1.117"
+"@flavioespinoza/log_log@^1.0.61":
+  version "1.0.61"
+  resolved "https://registry.yarnpkg.com/@flavioespinoza/log_log/-/log_log-1.0.61.tgz#87ea2faab73474dda43b5e006f4799c129ae1b66"
+  integrity sha512-o+y1WtOt72nxYK1VOryljYjiDMCE0H3yh+Tkhd2MtALDN4HQTcI/Qoi4tDFeSFV9pZeyOZLf653Or41evgbECg==
 
 "@flavs/docdash@^1.0.4":
   version "1.0.4"
@@ -121,7 +116,7 @@ ansi-wrap@0.1.0, ansi-wrap@^0.1.0:
   resolved "https://registry.yarnpkg.com/ansi-wrap/-/ansi-wrap-0.1.0.tgz#a82250ddb0015e9a27ca82e82ea603bbfa45efaf"
   integrity sha1-qCJQ3bABXponyoLoLqYDu/pF768=
 
-ansicolor@^1.1.78, ansicolor@^1.1.81:
+ansicolor@^1.1.78:
   version "1.1.81"
   resolved "https://registry.yarnpkg.com/ansicolor/-/ansicolor-1.1.81.tgz#9ccf4e5d129dd77df1eb907a41d7e1f4cfcae015"
   integrity sha512-uSggNDl++k+w9MUeAWoPsKMa9ekTWp50FzOf2LtxH4muRBANuToT2zaMHC47HJ6kySzos95P+2aSJ5DzIJ98sQ==
@@ -2223,7 +2218,7 @@ escodegen@1.8.x:
   optionalDependencies:
     source-map "~0.2.0"
 
-esm@^3.2.14, esm@^3.2.18:
+esm@^3.2.18:
   version "3.2.18"
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.18.tgz#54e9276449ab832b01240069ae66bf245785c767"
   integrity sha512-1UENjnnI37UDp7KuOqKYjfqdaMim06eBWnDv37smaxTIzDl0ZWnlgoXwsVwD9+Lidw+q/f1gUf2diVMDCycoVw==
@@ -4872,7 +4867,7 @@ object.reduce@^1.0.0:
     for-own "^1.0.0"
     make-iterator "^1.0.0"
 
-ololog@^1.1.117, ololog@^1.1.120:
+ololog@^1.1.120:
   version "1.1.120"
   resolved "https://registry.yarnpkg.com/ololog/-/ololog-1.1.120.tgz#6e285ba57093de2689474fa36ff07bbd8132fac0"
   integrity sha512-l4DMG137w2ZSlFplsNZ1gWPoHOGEAOQ+fHdnA2Wcpk4xSTNUMOv/XM400kpj126sMagzhB/2B17TJ/0kOgUClA==

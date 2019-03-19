@@ -33,7 +33,7 @@
 	},
 	"homepage": "https://github.com/flavioespinoza/flodash#readme",
 	"devDependencies": {
-		"@flavioespinoza/log_log": "^1.0.52",
+		"@flavioespinoza/log_log": "^1.0.61",
 		"@flavs/docdash": "^1.0.4",
 		"assert": "^1.4.1",
 		"async": "^2.1.4",
